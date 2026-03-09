@@ -1,12 +1,1 @@
-{
-    "firstName" : "Skyler",
-    "lastName" : "Specs",
-    "age" : "26",
-    "emailAddress" : "heartSkylerSpecs@valdivian.org",
-    "phoneNumber" : "+1 859-390-1939",
-    "dateOfBirth" : "2025-6-17",
-    "homeAddress" : "420 Coolsville",
-    "isEmployed" : "true",
-    "nationality" : "American",
-    "gender" : "Female"
-}
+{"firstName":"Franklin","lastName":"Lieste","age":32,"emailAddress":"tinfoilhat@valdivian.org","phoneNumber":"+1 078 485 9285","dateOfBirth":"2025-6-17","homeAddress":"Valdivian HQ, Coolsville","isEmployed":true,"nationality":"American","gender":"Male"}

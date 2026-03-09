@@ -3,6 +3,14 @@ package com.angelclaire.model;
 public class Person {
     private String firstName;
     private String lastName;
+    private int age;
+    private String emailAddress;
+    private String phoneNumber;
+    private String dateOfBirth;
+    private String homeAddress;
+    private boolean isEmployed;
+    private String nationality;
+    private String gender;
 
      public String getFirstName() {
         return firstName;
@@ -11,30 +19,6 @@ public class Person {
     public String getLastName() {
         return lastName;
     }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public Person(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
-
-    private int age;
-    private String emailAddress;
-    private String phoneNumber;
-    private String dateOfBirth;
-    private String homeAddress;
-    private String isEmployed;
-    private String nationality;
-    private String gender;
-
     
     public int getAge() {
         return age;
@@ -56,7 +40,7 @@ public class Person {
         return homeAddress;
     }
 
-    public String getIsEmployed() {
+    public boolean getIsEmployed() {
         return isEmployed;
     }
 
@@ -66,6 +50,15 @@ public class Person {
 
     public String getGender() {
         return gender;
+    }
+
+    //
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public void setAge(int age) {
@@ -88,7 +81,7 @@ public class Person {
         this.homeAddress = homeAddress;
     }
 
-    public void setIsEmployed(String isEmployed) {
+    public void setIsEmployed(boolean isEmployed) {
         this.isEmployed = isEmployed;
     }
 
@@ -100,8 +93,10 @@ public class Person {
         this.gender = gender;
     }
 
-    public Person(int age, String emailAddress, String phoneNumber, String dateOfBirth, String homeAddress,
-            String isEmployed, String nationality, String gender) {
+    public Person(String firstName, String lastName, int age, String emailAddress, String phoneNumber, String dateOfBirth, String homeAddress,
+            boolean isEmployed, String nationality, String gender) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.age = age;
         this.emailAddress = emailAddress;
         this.phoneNumber = phoneNumber;
