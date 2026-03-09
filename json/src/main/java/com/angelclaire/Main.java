@@ -11,8 +11,7 @@ import com.angelclaire.model.Person;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
-        Person person = new Person(firstName: "Franklin", lastName: "Lieste", age: "32", emailAddress: "tinfoilhat@valdivian.org", phoneNumber: "+1 078 485 9285", dateOfBirth: "2025-6-17", homeAddress: "Valdivian HQ, Coolsville",
-                                    isEmployed: "True", nationality: "American", gender: "Male");
+        Person person = new Person("Franklin","Lieste", "32", emailAddress: "tinfoilhat@valdivian.org", phoneNumber: "+1 078 485 9285", dateOfBirth: "2025-6-17", homeAddress: "Valdivian HQ, Coolsville","True", nationality: "American", gender: "Male");
 
         Gson gson = new Gson();
 
