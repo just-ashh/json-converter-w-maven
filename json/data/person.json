@@ -1,0 +1,12 @@
+{
+    "firstName" : "Skyler",
+    "lastName" : "Specs",
+    "age" : "26",
+    "emailAddress" : "heartSkylerSpecs@valdivian.org",
+    "phoneNumber" : "+1 859-390-1939",
+    "dateOfBirth" : "2025-6-17",
+    "homeAddress" : "420 Coolsville",
+    "isEmployed" : "true",
+    "nationality" : "American",
+    "gender" : "Female"
+}
